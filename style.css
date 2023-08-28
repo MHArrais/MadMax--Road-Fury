@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav{
+    width: 60%;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Acme', sans-serif;
+}
+
+li:hover{
+    color: #FFD700;
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+    
+}
+
+#banner{
+    background-image: url("https://assets0.dostuffmedia.com/uploads/aws_asset/aws_asset/15634973/c389ce3e-01bf-4257-aa4a-896cba9facb1.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+}
+#banner-contato{
+    background-image: url("https://64.media.tumblr.com/e6a68e17e0ecf70024d8596b98b74482/tumblr_oin9pk7SOC1r3741jo2_1280.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    
+}
+
+#banner-fotos{
+    background-image: url("https://townsquare.media/site/442/files/2015/09/mad-max-fury-road-black-white-pic-4.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    
+}
+
+#banner-comentarios{
+    background-image: url("https://miro.medium.com/v2/resize:fit:2000/1*NuXUKUJdwQSTigGuwFtYIA.png");
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    
+}
+
+#trailer-container{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+.content{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer{
+    width: 50%;
+}
+
+#sinopse{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description{
+    color: white;
+    font-size: 19px;
+    font-family: 'Acme', sans-serif;
+    width: 70%;
+}
+
+.button{
+    width: 200px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover{
+    background-color: #FFD700;
+    color: black;
+}
+
+.actor-cards-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Acme', sans-serif;
+}
+
+.card2{
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: white;
+    font-size: 17px;
+    font-family: 'Acme', sans-serif;
+}
+
+.card:hover{
+    transform: scale(1.02);
+}
+
+.banner-1{
+    background-image: url("https://conteudo.imguol.com.br/blogs/136/files/2016/10/Mad-Max-Fury-Road-Chrome.jpg");
+    
+}
+
+.banner-2{
+    background-image: url("https://assets.americancinematheque.com/wp-content/uploads/2022/07/24132123/ac-opt-MAD-MAX-FURY-ROAD-BLACK-CHROME_2.jpg")
+}
+
+.banner-3{
+    background-image: url("https://pop-verse.com/wp-content/uploads/2017/05/Black-and-Chrome-Joe.jpg");
+}
+
+.fotos-1{
+    background-image: url("https://esq.h-cdn.co/assets/16/26/980x490/gallery-1467389561-landscape-movies-mad-max-fury-road-tom-hardy-bw.jpg");
+    
+}
+
+.fotos-2{
+    background-image: url("https://filmadelphia.org/wp-content/uploads/FURY-ROAD_PatMan.jpg")
+}
+
+.fotos-3{
+    background-image: url("https://i0.wp.com/lennonwall.aauni.edu/wp-content/uploads/2017/10/Boom-By-Lemondesreves.fr_.jpg?ssl=1");
+}
+
+.fotos-4{
+    background-image: url("https://dus09vr7ngt46.cloudfront.net/uploads/2017/05/09152258/00419cb7.jpg");
+    
+}
+
+.fotos-5{
+    background-image: url("https://musicboxtheatre.com/sites/default/files/styles/page_images/public/2add41be8960d18459c7b5ada2f4ab81.png?itok=f2RYOPuE")
+}
+
+.fotos-6{
+    background-image: url("https://images.squarespace-cdn.com/content/51b3dc8ee4b051b96ceb10de/1476910458991-NFWWMNAMMKH35UTUHT3R/watch-george-miller-introduces-you-to-mad-max-fury-roads-black-and-chrome-edition-social.jpg?format=1500w&content-type=image%2Fjpeg");
+}
+
+footer{
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span{
+    color: white;
+    font-family:'Acme', sans-serif;
+}
+
+.footer-navigation{
+    display: none;
+}
+
+.footer-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* CONTATOS*/
+
+
+
+.formulario{
+    margin: auto;
+    height: 100px;
+    width: 600px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 170px 40px;
+    
+} 
+
+/*FOTOS*/
+
+.class-text{
+    margin: auto;
+    background-color: black;
+    height: 100px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family:'Acme', sans-serif;
+    font-size: 60px;
+    color: white;
+    transition: 1s;
+
+}
+.class-text:hover{
+    color: #FFD700;
+    cursor: default;
+}
+
+/*COMENTARIOS*/
+
+.class-comentarios{
+    border-radius: 20px;
+    height: 300px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    flex-direction: row ;
+    align-items: center;
+    justify-content: center;
+}
+.Comentarios{
+    background-color: white;
+    color: black;
+    border-radius:  200px; ;
+    height: 120px;
+    width: 500px;
+    display: flex;
+    margin:auto;
+    align-items: center;
+    justify-content: center;
+    font-family:'Acme', sans-serif;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.Comentarios:hover{
+    background-color: #FFD700;
+    color: black;
+}
+
+
+@media(max-width: 768px){
+    .footer-navigation{
+        display: block;
+    }
+
+    nav{
+        display: none;
+    }
+    #banner{
+        background-position: 10%;
+    }
+
+    #trailer-container{
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .content{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer{
+        width: 100%;
+    }
+
+    #sinopse{
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description{
+        width: 100%;
+    }
+
+    .button{
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cards-content{
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+}
